@@ -1,0 +1,100 @@
+html{
+    background-image: url("img/80_s_style_neon_sunset_by_jackb44_de4u5vj-fullview.jpg");
+    background-size: cover;
+  background-repeat: no-repeat;
+}
+body{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 800px;
+}
+
+
+
+.screen {
+    height: 80px;
+    width: 240px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: none;
+    background-color: #fff;
+ 
+    border-radius: 15%;
+    
+    font-size: 2rem;
+    text-align: right;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.2);
+  }
+
+.keys {
+    width: 300px;
+}
+.top-row input {
+    width: 50px;
+    height: 50px;
+    font-size: 1.5rem;
+  }
+  .bottom-row input {
+    width: 50px;
+    height: 50px;
+    font-size: 1.5rem;
+  }
+
+
+.btn,
+.operator {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    background-color: #01c5e7b5;;
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+  .operator1 {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    border-radius: 5px;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: #f2f2f2;
+    color: #333;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+  
+  .operator1:hover {
+    background-color: #333;
+    color: #fff;
+  }
+.btn:hover, .operator:hover {
+    background-color: #ddd;
+  }
+  .operator {
+    background-color: #f5a623;
+    color: #fff;
+  }
+  .operator {
+    background-color: #e830d0ce;
+    color: #fff;
+  }
+  .operator:hover {
+    background-color: #e6911c;
+  }
+  
+  .btn:last-child {
+    flex-grow: 1;
+    margin-left: 5px;
+  }
+  
+  .btn:focus {
+    outline: none;
+    box-shadow: 0px 0px 2px 2px rgba(0,0,0,0.2);
+  }
+ 
