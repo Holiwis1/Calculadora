@@ -37,3 +37,10 @@ for (let i = 0; i < botones.length; i++) {
     }
   });
 }
+//declaro el boton de borrado 
+const borrarBtn = document.querySelector('.borrar');
+//funcion que cuando pulsas el boton borre caracter por caracter
+borrarBtn.addEventListener('click', () => {
+  let valorPantalla = pantalla.value;
+  pantalla.value = valorPantalla.slice(0, -1);
+});
