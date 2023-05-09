@@ -53,22 +53,23 @@ body {
   cursor: pointer;
 }
 
-
-
 .btn:hover,
-.operator:hover ,
-.borrar{
+.operator:hover,
+.borrar {
   background-color: #ddd;
 }
-.operator,.borrar {
+.operator,
+.borrar {
   background-color: #f5a623;
   color: #fff;
 }
-.operator, .borrar {
+.operator,
+.borrar {
   background-color: #e830d0ce;
   color: #fff;
 }
-.operator, .borrar:hover {
+.operator,
+.borrar:hover {
   background-color: #e6911c;
 }
 
@@ -81,6 +82,3 @@ body {
   outline: none;
   box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.2);
 }
-
-
- 
